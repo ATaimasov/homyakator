@@ -4,7 +4,17 @@
 <meta name="vievport" content="width=device-width, initial-scale=1, vievport-fit=cover">
 <title>Интернет-магазин вкусного корма "Хомякатор"</title>
 <meta name="description" content='Нужен вкусный корм? В нашем магазине широкий выбор: от овса до сушеной морковки. У нас вы можете купить кормовой набор: "За обе щеки" с доставкой в течении 1-5 дней в любой регион Хомячиной Федерации. Пожилым грызунам - скидка 10%'
-<link rel="icon" type="image/png" href="hamster_icon.png">
+
+<link rel="apple-touch-icon" sizes="180x180" href="/img/favicons/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/img/favicons/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/img/favicons/favicon-16x16.png">
+<link rel="manifest" href="/img/favicons/site.webmanifest">
+<link rel="mask-icon" href="/img/favicons/safari-pinned-tab.svg" color="#ffc40d">
+<link rel="shortcut icon" href="/img/favicons/favicon.ico">
+<meta name="msapplication-TileColor" content="#ffc40d">
+<meta name="msapplication-config" content="/img/favicons/browserconfig.xml">
+<meta name="theme-color" content="#ffffff">
+
 <meta name="apple-mobile-web-app-capable" content="yes">
 <link rel="apple-touch-icon" href="hamster_icon.png">
 <meta name="msapplication-config" content="browserconfig.xml">
@@ -13,7 +23,6 @@
 <meta content="width" name="MobileOptimized">
 <meta content="yes" name="apple-mobile-web-app-capable">
 <link rel="stylesheet" href="styles/style.css">
-<script type="text/javascript" src="/scripts/script.js"></script>
 </head>
 
 <body>
@@ -22,7 +31,7 @@
         вкусного корма 
                <span id="homyakatorName"> "Хомякатор" </span></pre></h1>
     <div class="homaDiv" onclick="playAudio()">
-        <img  src="styles/img/cool_hamster.jpeg" alt="Хомякатор" class="homyakator">  
+        <img  src="/img/cool_hamster.jpeg" alt="Хомякатор" class="homyakator">  
     </div>
 
     <p class="NamePage_mobile">Интернет-магазин вкусного корма <span id="homyakatorName_mobile"> "Хомякатор" </span></pre></h1></p>
@@ -34,12 +43,45 @@
             <a class="link link3">Отзывы</a></li>
             <a class="link link4">Контакты</a></li>
         
-        <div class="img-div img1 link1"><img src="styles/img/link1.jpeg" class="link-img"   ></div> 
-        <div class="img-div img2 link2"><img src="styles/img/link2.jpeg" class="link-img"></div>
-        <div class="img-div img3 link3"><img src="styles/img/link3.jpeg"  class="link-img" ></div>
-        <div class="img-div img4 link4"><img src="styles/img/link4.jpeg"  class="link-img" ></div>
+        <div class="img-div img1 link1"><img src="/img/link1.jpeg" class="link-img"   ></div> 
+        <div class="img-div img2 link2"><img src="/img/link2.jpeg" class="link-img"></div>
+        <div class="img-div img3 link3"><img src="/img/link3.jpeg"  class="link-img" ></div>
+        <div class="img-div img4 link4"><img src="/img/link4.jpeg"  class="link-img" ></div>
     </nav>
 </header>
+
+<!-- confirm start -->
+<div class="preload">
+    <div class="hamster-confirm">
+        <div class="img-hamster-confirm-container">
+            <img src="/img/confirm.png" alt="confirm" class="hamster-confrim-image">
+        </div>
+        <div class="window-hamster-confirm">
+
+            <h1 class="window-confrim-text-header ">Подтвердите, что вы хомяк</h1>
+            <p class="window-confrim-text ">Данный магазин предназначен только для пушистых хомячков.</p>
+            <p class="window-confrim-text ">Если вы не хомяк - покиньте страницу!</p>
+
+            <div class="buttons-hamster-confirm">
+                <button class="button-hamster-confirm confirm-true">
+                    <p class="text-button-hamster-confirm"> Я хомяк</p>
+                </button>
+                <button class="button-hamster-confirm confirm-false">
+                    <p class="text-button-hamster-confirm"> Я не хомяк</p>
+                </button>    
+            </div>
+        </div>
+    </div>
+
+    <div class="hamster-confirm confirm-false-window hidden">
+        <div class="false-confrim-container">
+            <h1 class="false-confrim-text-header"> Извините</h1>
+            <p class="false-confrim-text">В соответствии с законодательством Хомячиной Федерации мы вынуждены отказать вам в доступе на наш сайт</p>
+            <button class="back-button-false-confirm">Вернуться назад</button>
+        </div>
+    </div>
+</div>
+<!-- confirm end -->
 
 <main class="container">
 
@@ -50,17 +92,17 @@
 
     <div class="about-us-container">
     <div class="about-us">
-        <img class="about-us-img" src ="styles/img/about_us.jpeg">
+        <img class="about-us-img" src ="/img/about_us.jpeg">
         <p class="about-us-text"> Наш корм богат витаминами и минералами, которые необходимы для вашего здоровья и долголетия.  </p>
     </div>
 
     <div class="about-us">
-        <img class="about-us-img" src ="styles/img/about_us2.jpeg">
+        <img class="about-us-img" src ="/img/about_us2.jpeg">
         <p class="about-us-text"> Мы предлагаем широкий ассортимент кормов и зерен с различными вкусами и добавками, чтобы удовлетворить любые ваши потребности </p>
     </div>
 
     <div class="about-us">
-        <img class="about-us-img" src ="styles/img/about_us3.jpeg">
+        <img class="about-us-img" src ="/img/about_us3.jpeg">
         <p class="about-us-text"> Корм от "Хомякатора" легко усваиваивается и не вызывает аллергии или других проблем со здоровьем.  </p>
     </div>
 </div>
@@ -75,7 +117,7 @@
 
 
             <arcticle class="product-item" id="mix1">
-                <p class="product-image-container"> <img src="styles/img/mix1.png" class="product-image"></p>
+                <p class="product-image-container"> <img src="/img/mix1.png" class="product-image"></p>
                 <p class="product-text">Микс 1</p>
                 <div class="purchase">
                         
@@ -84,8 +126,8 @@
                         <div class="product-weight">150 гр</div>   
                     </div>
                
-                    <button> 
-                        <img src="styles/img/purchase.png" class="purchase-image">
+                    <button class = "purchase-button"> 
+                        <img src="/img/purchase.png" class="purchase-image">
                     </button>
                     
                 </div>
@@ -94,7 +136,7 @@
 
                 
     <article class="product-item" id="mix2">
-        <p class="product-image-container"> <img src="styles/img/mix2.png" class="product-image"></p>
+        <p class="product-image-container"> <img src="/img/mix2.png" class="product-image"></p>
         <p class="product-text">Микс 2</p>
         <div class="purchase">
                 <div class="purchase-text">
@@ -102,15 +144,15 @@
                     <div class="product-weight">100 гр</div>
                 </div>    
                 
-                <button> 
-                    <img src="styles/img/purchase.png" class="purchase-image">
+                <button class = "purchase-button"> 
+                    <img src="/img/purchase.png" class="purchase-image">
                 </button>
         </div>
         
     </article>
 
     <article class="product-item" id="mix3">
-        <p class="product-image-container"> <img src="styles/img/mix3.png" class="product-image" ></p>
+        <p class="product-image-container"> <img src="/img/mix3.png" class="product-image" ></p>
         <p class="product-text">Микс 3</p>
         <div class="purchase">
                 <div class="purchase-text">
@@ -118,8 +160,8 @@
                     <div class="product-weight">100 гр</div>
                 </div>    
                 
-                <button> 
-                    <img src="styles/img/purchase.png" class="purchase-image">
+                <button class = "purchase-button"> 
+                    <img src="/img/purchase.png" class="purchase-image">
                 </button>
         </div>
         
@@ -127,7 +169,7 @@
 
 
     <article class="product-item" id="mix4">
-        <p class="product-image-container"> <img src="styles/img/mix4.png" class="product-image"></p>
+        <p class="product-image-container"> <img src="/img/mix4.png" class="product-image"></p>
         <p class="product-text">Микс 4</p>
         <div class="purchase">
                 <div class="purchase-text">
@@ -135,8 +177,8 @@
                     <div class="product-weight">150 гр</div>
                 </div>    
                 
-                <button> 
-                    <img src="styles/img/purchase.png" class="purchase-image">
+                <button class = "purchase-button"> 
+                    <img src="/img/purchase.png" class="purchase-image">
                 </button>
         </div>
         
@@ -145,7 +187,7 @@
 
 
     <arcticle class="product-item" id="corn">
-        <p class="product-image-container"> <img src="styles/img/corn.jpeg" class="product-image" ></p>
+        <p class="product-image-container"> <img src="/img/corn.jpeg" class="product-image" ></p>
         <p class="product-text">Кукурузка</p>
         <div class="purchase">
                 
@@ -154,8 +196,8 @@
                 <div class="product-weight">100 гр</div>   
             </div>
        
-            <button> 
-                <img src="styles/img/purchase.png" class="purchase-image">
+            <button class = "purchase-button"> 
+                <img src="/img/purchase.png" class="purchase-image">
             </button>
             
         </div>
@@ -165,7 +207,7 @@
 
 
     <article class="product-item" id="wheat">
-        <p class="product-image-container"> <img src="styles/img/wheat.jpeg" class="product-image"></p>
+        <p class="product-image-container"> <img src="/img/wheat.jpeg" class="product-image"></p>
         <p class="product-text">Пшеница</p>
         <div class="purchase">
                 <div class="purchase-text">
@@ -173,15 +215,15 @@
                     <div class="product-weight">100 гр</div>
                 </div>    
                 
-                <button> 
-                    <img src="styles/img/purchase.png" class="purchase-image">
+                <button class = "purchase-button"> 
+                    <img src="/img/purchase.png" class="purchase-image">
                 </button>
         </div>
         
     </article>
 
     <article class="product-item" id="barley">
-        <p class="product-image-container"> <img src="styles/img/barley.jpeg" class="product-image" ></p>
+        <p class="product-image-container"> <img src="/img/barley.jpeg" class="product-image" ></p>
         <p class="product-text">Овес</p>
         <div class="purchase">
                 <div class="purchase-text">
@@ -189,8 +231,8 @@
                     <div class="product-weight">100 гр</div>
                 </div>    
                 
-                <button> 
-                    <img src="styles/img/purchase.png" class="purchase-image">
+                <button class = "purchase-button"> 
+                    <img src="/img/purchase.png" class="purchase-image">
                 </button>
         </div>
         
@@ -198,7 +240,7 @@
 
 
     <article class="product-item" id="oats">
-        <p class="product-image-container"> <img src="styles/img/oats.jpeg" class="product-image"></p>
+        <p class="product-image-container"> <img src="/img/oats.jpeg" class="product-image"></p>
         <p class="product-text">Ячмень</p>
         <div class="purchase">
                 <div class="purchase-text">
@@ -206,8 +248,8 @@
                     <div class="product-weight">100 гр</div>
                 </div>    
                 
-            <button> 
-                <img src="styles/img/purchase.png" class="purchase-image">
+            <button class = "purchase-button"> 
+                <img src="/img/purchase.png" class="purchase-image">
             </button>
         </div>
         
@@ -220,7 +262,7 @@
     <h2> Отзывы</h2>
     <article class="review" id="review_1">
       <div class="review-image-container">
-          <img src="styles/img/hamster-review_1.png" class="review-image">
+          <img src="/img/hamster-review_1.png" class="review-image">
         </div>
           <p class="review-text small-text"> Корм крутой! Сносит башню быстро! <span class="emoji em1">&#128540;</span> </p>
     </article>    
@@ -229,7 +271,7 @@
     
     <article class="review" id="review_2">
         <div class="review-image-container" >
-            <img src="styles/img/hamster-review_2.png" class="review-image">
+            <img src="/img/hamster-review_2.png" class="review-image">
         </div>
             <p class="review-text"> После покупки кукурузки от "Хомякатора", я в своем познании настолько преисполнился, что я как будто бы уже
 
@@ -253,7 +295,7 @@
 
       <article class="review">
         <div class="review-image-container">
-            <img src="styles/img/hamster-review_3.png" class="review-image">
+            <img src="/img/hamster-review_3.png" class="review-image">
         </div>
        
             <p class="review-text small-text smaller-text"> Кчау! <span class="emoji em3">&#9996;</span></p>
@@ -268,14 +310,16 @@
 <section id="contacts">
     <h2>Контакты</h2>
     <div class="contacts">
-        <img src="styles/img/contacts.png" class="contacts-image" >
+       
+            <img src="/img/contacts.png" class="contacts-image" >
+       
         <div class="contacts-text-container">
         <p class="contacts-text">ООО "Хомякатор"</p>
         <p class="contacts-text">ИНН: 152346789</p> 
         <p class="contacts-text">ОГРН: 157899111651</p>
         <p class="contacts-text">Адрес: Хомячиная федерация, г. Хамстерленд, поляна № 5, норка № 2 </p>
         <p class="contacts-text">Телефон: +7999888555</p>
-        <p class="contacts-text"> Мы на ютубе: <a href="https://youtube.com/shorts/raTJ5XT1uDA" target="_blank"><img src="styles/img/youtube.png" width="30" height="30"></a></p>
+        <p class="contacts-text"> Мы на ютубе: <a href="https://youtube.com/shorts/raTJ5XT1uDA" target="_blank"><img src="/img/youtube.png" width="30" height="30"></a></p>
         </div>
     </div>
   
@@ -292,7 +336,7 @@
 <aside class="support">
     <div class="support-homa"> 
         <p class="support-text">Хомапомощь</p>
-        <div class="support-image-container"> <img src="styles/img/hamster_support.png" alt="support" class="support-image" > </div>
+        <div class="support-image-container"> <img src="/img/hamster_support.png" alt="support" class="support-image" > </div>
     </div>
    
 </aside>
@@ -302,9 +346,9 @@
 
 
 
-<audio id="homyakator" src="styles/homyakator.mp3" ></audio>
+<audio id="homyakator" src="/homyakator.mp3" ></audio>
 
-<script src="scripts/script.js"></script>
+<script src="/scripts/script.js"></script>
 
 
 
